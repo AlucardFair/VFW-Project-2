@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- Zachery Hernandez -->
+<!-- FVW 1203 -->
+<!-- Project 1 -->
+<!-- Body Health & Fitness -->
+<!-- https://github.com/AlucardFair/FVW-Project-1 -->
+<!-- Start of HTML Doc -->
+<html>
+	<head>
+		<!-- Title -->
+		<title>Body Health & Fitness</title>
+		<!-- Meta Details -->
+		<meta charset="utf-8" />
+		<meta keyword="body, health, fitness" />
+		<meta description="Get into shape or stay in shape." />
+		<meta name="robots" content="index, follow" />
+		<meta name="viewport" content="user-scalable=no, width=device-width" />
+		<meta name="viewport" content="user-scalabel=no, target-densitydpi=device-dpi" />
+		<!-- CSS -->
+		<link rel="stylesheet" href="nothing-yet.css" type="text/css" />
+	</head>
+	<body>
+		<header>
+			<!-- New Workout Title -->
+			<h1>Start a new workout!</h1>
+			<!-- App Description -->
+			<li><medium><strong>Helping you schedule your workouts.</strong></medium></li>
+		</header>
+		<!-- Form Started -->
+		<form action="#" method="post">
+			<!-- Start Fieldset & Legend -->
+			<fieldset>
+				<legend>Training</legend>
+				<ul>
+					<li>
+						<!-- Start Select & Option -->
+						<label for="method">Training style</label>
+						<select id="method">
+						<optgroup label="Choose one">
+							<option value="Cardio">Cardio</option>
+							<option value="Strength">Strength</option>
+							<option value="Tone">Tone</option>
+						</optgroup>
+						</select>
+						<!-- End Select & Option -->
+					</li>
+					<!-- Text Field -->
+					<li><label for="wname">Workout Name:</label><input type="text" id="wname" placeholder="Running, Weights..." /></li>
+					<!-- Checkbox -->
+					<li><label for="favorite">Is this a favorite?</label><input type="checkbox" checked value="Is this a favorite?" id="favorite" /></li>
+					<!-- Range -->
+					<li><label for="howlong">How long will you do this workout? (1-60 Minutes)</label><input type="range" id="howlong" min="1" max="60" /></li>
+					<li>What time would you prefer for this workout?</li>
+					<ul>
+						<!-- Radio -->
+						<li><input type="radio" value="Morning" id="morning" name="timeofday" /><label for="morning">Morning</label></li>
+						<li><input type="radio" value="Afternoon" id="afternoon" name="timeofday" /><label for="afternoon">Afternoon</label></li>
+						<li><input type="radio" value="Evening" id="evening" name="timeofday" /><label for="evening">Evening</label></li>
+					</ul>
+				</ul>
+				<!-- End Fieldset -->
+				</fieldset>
+				<!-- Start Fieldset & Legend -->
+				<fieldset>
+					<legend>Motivation</legend>
+					<ul>
+						<!-- Text Area -->
+						<li><label for="comments">Start getting yourself motivated.</label><textarea id="comments" placeholder="Motivation starts here."></textarea></li>
+					</ul>
+			<!-- End Fieldset -->
+			</fieldset>
+			<!-- Submit / Add Workout -->
+			<input type="submit" value="Add Workout!" />
+		<!-- Form Ended -->
+		</form>
+		<!-- JavaScript -->
+		<script type="text/javascript" src="nothing-yet.js"></script>
+	<!-- Small Details that are not important enough to be in the main section -->	
+	<footer>
+		<small>Coded by Zachery Hernandez</small>
+	</footer>
+	</body>
+</html>
+<!-- End of HTML Doc -->
