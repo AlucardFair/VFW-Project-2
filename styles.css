@@ -1,0 +1,83 @@
+html {
+	background-color: rgb(200,200,200);
+	margin: 0 auto;
+}
+
+h1 {
+	background-color: rgba(0,0,0,.6);
+	font-family: Helvetica, Roboto, Droid-Sans;
+	font-variant: small-caps;
+	font-weight: strong;
+	font-size: 170%;
+	text-align: center;
+	color: white;
+	margin: 4px;
+	margin-top: 8px;
+	padding: 2px;
+	border: 1px;
+	border-color: black;
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0 0 5px teal;
+}
+
+h2 {
+	font-family: helvetica, roboto, droid-sans;
+	font-size: 55%;
+	font-weight: strong;
+	color: white;
+}
+
+body {
+	background-color: teal;
+	width: 95%;
+	margin: 0 auto;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 0 10px #000;
+}
+
+p {
+	text-indent: 10px;
+	text-align: right;
+	font-size: 100%;
+	text-transform: lowercase;
+	margin-right: 4px;
+	margin-top: -6px;
+}
+
+fieldset {
+	font-family: helvetica, roboto, droid-sans;
+	font-size: 150%;
+	font-weight: strong;
+	color: white;
+	margin: 4px;
+	padding: 0px;
+	background-color: rgba(0,0,0,.6);
+	border-color: black;
+	border: 1px;
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0 0 5px teal;
+}
+
+legend {
+	font-family: Helvetica, Roboto, Droid-Sans;
+	font-weight: strong;
+}
+
+li {
+	font-family: helvetica, roboto, droid-sans;
+	font-size: 45%;
+	font-weight: normal;
+	color: white;
+}
+
+input {
+	background-color: teal;
+	color: black;
+}
+
+footer {
+	font-family: Helvetica, Roboto, Droid-Sans;
+	color: black;
+	font-variant: small-caps;
+	text-align: center;
+}
