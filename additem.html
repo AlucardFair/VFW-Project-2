@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <!-- Zachery Hernandez -->
-<!-- FVW 1203 -->
-<!-- Project 1 -->
+<!-- VFW 1203 -->
+<!-- Project 2 -->
+<!-- 4/5/2012 -->
 <!-- Body Health & Fitness -->
 <!-- https://github.com/AlucardFair/VFW-Project-2 -->
 <!-- Start of HTML Doc -->
@@ -27,29 +28,34 @@
 			<p><medium><strong>...Helping you schedule your workouts</strong></medium></p>
 		</header>
 		<!-- Form Started -->
-		<form action="#" method="post">
+		<form action="saveData()" method="post">
 			<!-- Start Fieldset & Legend -->
 			<fieldset>
 				<legend>Training</legend>
 				<ul>
 					<li>
+						<!-- Display Link -->
+						<li><a href="getData()" id="displayData">Display Data</a></li>
 						<!-- Start Select & Option -->
-						<label for="method">Training style</label>
+						<!-- New Dynamic Code -->
+						<li id="select"><label for="training">Training Style: </label><br /></li>
+						<!-- Old Code -->
+					<!--<label for="method">Training Style:</label><br>
 						<select id="method">
-						<optgroup label="Choose one">
+						<optgroup label="Choose A Style">
 							<option value="Cardio">Cardio</option>
 							<option value="Strength">Strength</option>
 							<option value="Tone">Tone</option>
 						</optgroup>
-						</select>
+						</select> -->
 						<!-- End Select & Option -->
 					</li>
 					<!-- Text Field -->
-					<li><label for="wname">Workout Name:</label><input type="text" id="wname" placeholder="Running, Weights..." /></li>
+					<li><label for="wname">Workout Name: </label><br /><input type="text" id="wname" placeholder="Running, Weights..." /></li>
 					<!-- Checkbox -->
-					<li><label for="favorite">Is this a favorite?</label><input type="checkbox" checked value="Is this a favorite?" id="favorite" /></li>
+					<li><label for="favorite">Is this a favorite? </label><input type="checkbox" checked value="Is this a favorite?" id="favorite" /></li>
 					<!-- Range -->
-					<li><label for="howlong">How long will you do this workout? (1-60 Minutes)</label><input type="range" id="howlong" min="1" max="60" /></li>
+					<li><label for="howlong">How long will you do this workout? (5-60 Minutes)</label><br /><input type="range" id="howlong" value="0" min="5" max="60" step="5" /></li>
 					<li>What time would you prefer for this workout?</li>
 					<!-- Radio -->
 					<li><input type="radio" value="Morning" id="morning" name="timeofday" /><label for="morning">Morning</label></li>
@@ -63,12 +69,14 @@
 					<legend>Motivation</legend>
 					<ul>
 						<!-- Text Area -->
-						<li><label for="comments">Start getting yourself motivated.</label><textarea id="comments" placeholder="Motivation starts here."></textarea></li>
+						<li><label for="comments">Start getting yourself motivated.</label><br /><textarea id="comments" placeholder="Motivation starts here."></textarea></li>
 					</ul>
 			<!-- End Fieldset -->
 			</fieldset>
-			<!-- Submit / Add Workout -->
-			<input type="submit" value="Add Workout!" />
+			<div>
+				<!-- Submit / Add Workout -->
+				<input type="submit" id="saveData" value="Add Workout!" /> --or-- <a href="clearData()"><input type="submit" id="clearData" value="Clear Data" /></a>
+			</div>
 		<!-- Form Ended -->
 		</form>
 	<!-- Small Details that are not important enough to be in the main section -->	
@@ -76,7 +84,7 @@
 		<small>Coded by Zachery Hernandez</small>
 	</footer>
 		<!-- JavaScript -->
-		<script type="text/javascript" src="nothing-yet.js"></script>
+		<script type="text/javascript" src="main.js"></script>
 	</body>
 </html>
 <!-- End of HTML Doc -->
