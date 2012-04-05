@@ -24,6 +24,16 @@ body {
 	-webkit-box-shadow: 0 0 10px #000;
 }
 
+nav {
+	text-align: center;
+}
+
+input[type="button"] {
+	font-family: helvetica, roboto, droid-sans;
+	background-color: black;
+	color: white;
+}
+
 h1 {
 	font-family: Helvetica, Roboto, Droid-Sans;
 	font-variant: small-caps;
@@ -87,7 +97,7 @@ li {
 	list-style-position: inside;
 }
 
-div {
+div.button {
 	text-align: center;
 }
 
